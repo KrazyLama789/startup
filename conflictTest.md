@@ -1,0 +1,1 @@
+# This file is to practice resolving conflicts in git.
