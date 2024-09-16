@@ -7,10 +7,10 @@ Have you ever tried to schedule a time to meet up with multiple friends or colle
 ## Key Features
 * Group calender
   * Block out busy times
-  * Highlight best avalable times
+  * Highlight best available times
 
 * Chat window
-  * Discuss avalable windows of time
+  * Discuss available windows of time
   * Coordinate meetup
   * Plan events
 
@@ -19,8 +19,40 @@ Have you ever tried to schedule a time to meet up with multiple friends or colle
   * Block out event windows set in google
 
 ## Technologies
+* HTML:
+    * Structure consistency across pages
+    * Atomic design (so "like things" are consistent across pages and easier to design)
+    * Basic structuring of sections, headers, footers, buttons, and forms.
+
+* CSS:
+    * Consistent dynamic design across all pages
+        * Typography
+        * Padding and alignment (good design practice)
+        * Border styling (slightly rounded edges, for a more friendly appearing U.I.)
+        * Color scheme (use color variables for easy updating)
+
+* JavaScript:
+     * Basic interactivity (button functionality, navigation, loging in, toggling calender display)
+     * Complex functionality (interacting with the calender)
+        * Block out busy times
+        * Highlight preferred times
+
+* React:
+    * Assist JS with the complexities of the calender functionality.
+
+* Web service:
+    * Google Calender API (dynamically block out google calendered events)
+
+* Authentication: 
+    * Creates User login.
+
+* Database data: 
+    * Store user login, calender I.D.s and calender data.
+
+* WebSocket data:
+    * Shares calender updates with whole group.
 
 ## Sketches
 ![Screenshot of startup landing page wireframe.](images\startup-home.png)
-![Screenshot of startup landing page wireframe.](images\startup-login.png)
-![Screenshot of startup landing page wireframe.](images\startup-calander.png)
+![Screenshot of startup login page wireframe.](images\startup-login.png)
+![Screenshot of startup main application (calender) wireframe.](images\startup-calander.png)
