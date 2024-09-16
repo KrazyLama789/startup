@@ -21,3 +21,6 @@ Have you ever tried to schedule a time to meet up with multiple friends or colle
 ## Technologies
 
 ## Sketches
+![Screenshot of startup landing page wireframe.](images\startup-home.png)
+![Screenshot of startup landing page wireframe.](images\startup-login.png)
+![Screenshot of startup landing page wireframe.](images\startup-calander.png)
