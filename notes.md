@@ -18,8 +18,9 @@ ssh -i MRGKeyPair.pem ubuntu@blockoutcal.com
 * get into server
 
 ## Code
-js in html
-* <button onclick="let i = 1">
+### JavaScript
+* html: <button onclick="let i = 1; i++: console.log(i)">
+* html: <script> function sayGoodbye() {alert('goodbye');} </script>
 
 ## Other:
 * aws ec2 -> server instance
