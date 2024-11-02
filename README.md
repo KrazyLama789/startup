@@ -14,24 +14,48 @@ optional: customizable patterns for their specific time blocks. friends lists. e
 
 ## Current Status
 * ### HTML
-* * index.html - basic html framework, working nav, placeholder main
-* * calendar.html - basic html framework, working nav, placeholder main
-* * profile.html - basic html framework, working nav, placeholder main
-* * login.html - basic html framework, working nav, placeholder main
+    * every page:
+        * basic html framework
+        * working navigation bar
+        * background image
+        * page title
+        * github repo link in the footer
+    * index.html:
+        * introductory paragraph
+        * a button to get started (links to calendar page)
+        * a login button (links to login page)
+    * calendar.html:
+        * buttons to switch the display between daily (comparison view), weekly overlay view, and monthly overlay view. 
+        * buttons to block out available/unavailable times
+        * a button to data from google calendar
+        * a section for the weekday names, with a span for adaptive monthly dates (fixed top of grid)
+        * a section for the hours of the day (left grid)
+        * seven sections with 24 buttons each, allowing interaction with every hour of the day, for the calendar functionality.
+    * profile.html
+        * username display
+        * section with link to personal calendar
+        * section to be turned into a dropdown accordion with the list of group calendars in it. (all buttons linked to the calendar page)
+    * login.html:
+        * username display
+        * login form
 
 ## Key Features
-* Group calender
-  * Block out busy times
-  * Highlight best available times
+* Personal calendar
+    * A personal calendar that can be overlaid onto any group calendar
+
+* Group calendar
+    * Block out busy times
+    * Highlight best available times
+
+* Google calender
+  * The option to block out busy windows with data from google calendars
+
+### Optional
 
 * Chat window
   * Discuss available windows of time
   * Coordinate meetup
   * Plan events
-
-* Google calender
-  * Optional feature
-  * Block out event windows set in google
 
 ## Technologies
 * HTML:
