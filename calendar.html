@@ -30,9 +30,10 @@
           <button>Month View</button>
         </div>
         <div id="calendar-tools">
-          <button>Add Available</button>
-          <button>Block Unavailable</button>
-          <button>Google Calendar</button>
+          <button>+</button>
+          <button>My Cal</button>
+          <button>Google Cal</button>
+          <button>leave</button>
         </div>
       </div>
       <div id="cal-display">
@@ -267,6 +268,26 @@
             <button></button>
           </div>
         </div>
+      </div>
+      <div id="calendar-buttons">
+        <button>Save</button>
+        <button>Reset</button>
+      </div>
+      <div id="add-block">
+        <form action="">
+          <label for="time-blocks">Time Block:</label>
+          <select name="time-blocks" id="time-blocks">
+            <option value="available">Available</option>
+            <option value="saab">Unavailable</option>
+          </select>
+
+          <form>
+            <label for="date">date:</label>
+            <input type="datetime-local" id="date" name="date">
+          </form>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
   </main>

@@ -27,10 +27,17 @@ optional: customizable patterns for their specific time blocks. friends lists. e
     * calendar.html:
         * buttons to switch the display between daily (comparison view), weekly overlay view, and monthly overlay view. 
         * buttons to block out available/unavailable times
-        * a button to data from google calendar
+        * a button to pull up the date and time picker card (to block out or highlight time blocks)
+        * a button to add data from google calendar to the user's personal calendar
+        * a button to add data from the user's personal calendar to the group calendar
+        * a button to leave the group calendar
         * a section for the weekday names, with a span for adaptive monthly dates (fixed top of grid)
         * a section for the hours of the day (left grid)
         * seven sections with 24 buttons each, allowing interaction with every hour of the day, for the calendar functionality.
+        * a save button to save personal changes to database
+        * a reset button to reset personal calendar
+        * a section form for adding new time blocks to the calendar instead of clicking on the time or importing info from a google calendar.
+
     * profile.html
         * username display
         * section with link to personal calendar
