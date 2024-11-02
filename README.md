@@ -2,7 +2,7 @@
 Start up for BYU CS 260
 
 ## Elevator pitch
-Have you ever tried to schedule a time to meet up with multiple friends or colleagues, only to run into the logistical nightmare of trying to find when everyone's schedules line up? Many adults find it incredibly difficult to keep and maintain healthy friendships because most people have infinitely complex lives and schedules. "TimeFrame" is a group calendaring platform where people can join a group, block out times they aren't available, and even highlight times when they would prefer to "TimeFrame", allowing everyone in the group to visually see when their schedules align.
+Have you ever tried to schedule a time to meet up with multiple friends or colleagues, only to run into the logistical nightmare of trying to find when everyone's schedules line up? Many adults find it incredibly difficult to keep and maintain healthy friendships because most people have infinitely complex lives and schedules. "BlockOut-Cal" is a group calendaring platform where people can join a group, block out times they aren't available, and even highlight times that work best for them, allowing everyone in the group to visually see when their schedules align.
 
 ## End Goal
 * * index.html is the landing page of the website. It's purposes are to welcome new users, prompt them to get started with immediately, or to log in (needed to save future data or access previously saved data).
