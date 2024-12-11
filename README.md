@@ -25,26 +25,60 @@ optional: customizable patterns for their specific time blocks. friends lists. e
         * a button to get started (links to calendar page)
         * a login button (links to login page)
     * calendar.html:
-        * buttons to switch the display between daily (comparison view), weekly overlay view, and monthly overlay view. 
-        * buttons to block out available/unavailable times
-        * a button to pull up the date and time picker card (to block out or highlight time blocks)
+        * buttons to switch the display between daily (comparison view), weekly overlay view, and monthly overlay view. (Discontinued)
+        * buttons to block out available/unavailable times (switched to toggle)
+        * a button to pull up the date and time picker card (to block out or highlight time blocks) (discontinued)
         * a button to add data from google calendar to the user's personal calendar
         * a button to add data from the user's personal calendar to the group calendar
         * a button to leave the group calendar
-        * a section for the weekday names, with a span for adaptive monthly dates (fixed top of grid)
-        * a section for the hours of the day (left grid)
-        * seven sections with 24 buttons each, allowing interaction with every hour of the day, for the calendar functionality.
+        * a section for the weekday names, with a span for adaptive monthly dates (fixed top of grid) (updated: table)
+        * a section for the hours of the day (left grid) (updated: table)
+        * seven sections with 24 buttons each, allowing interaction with every hour of the day, for the calendar functionality.(updated: table)
         * a save button to save personal changes to database
         * a reset button to reset personal calendar
-        * a section form for adding new time blocks to the calendar instead of clicking on the time or importing info from a google calendar.
+        * a section form for adding new time blocks to the calendar instead of clicking on the time or importing info from a google calendar. (discontinued -> click to toggle)
 
-    * profile.html
+    * profile.html (Discontinued -> Integrated functionality into calendar page)
         * username display
         * section with link to personal calendar
         * section to be turned into a dropdown accordion with the list of group calendars in it. (all buttons linked to the calendar page)
+
     * login.html:
         * username display
         * login form
+
+* ### CSS
+    * every page:
+        * Consistent, functional, and dynamic navigation bar and footer
+        * Flex body
+        * Styled background image
+        * Github repo link in the footer
+        * Uses stylesheets and bootstrap
+        * Consistent styling
+    * index.html:
+        * Aesthetic introductory paragraph
+        * Styled buttons
+        * Dynamic content box
+    * calendar.html:
+        * Updated buttons
+        * Dropdown for list of calendars
+        * Dropdown for list of options
+          * Link Google Calendar
+          * Link Personal Calendar
+          * Create New Calendar
+          * Join Calendar
+          * Invite To Calendar
+          * Leave Calendar
+        * Table with:
+          * Clickable cells for every half-hour interval in a whole week's time (to be toggleable)
+          * Week days as headers with the date below
+          * Hours of the day as a side header
+        * Buttons to navigate between weeks (month view discontinued for simplicity)
+
+    * profile.html (Discontinued -> Integrated functionality into calendar page)
+
+    * login.html:
+        * Well designed form
 
 ## Key Features
 * Personal calendar
@@ -98,7 +132,12 @@ optional: customizable patterns for their specific time blocks. friends lists. e
 * WebSocket data:
     * Shares calender updates with whole group.
 
+
+
 ## Sketches
 ![Screenshot of startup landing page wireframe.](images\startup-home.png)
 ![Screenshot of startup login page wireframe.](images\startup-login.png)
 ![Screenshot of startup main application (calender) wireframe.](images\startup-calander.png)
+
+## Attributions
+Background Image: 'clock' by Mat Brown (open source advocate)
