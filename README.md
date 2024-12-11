@@ -141,3 +141,4 @@ optional: customizable patterns for their specific time blocks. friends lists. e
 
 ## Attributions
 Background Image: 'clock' by Mat Brown (open source advocate)
+Favicon: <a target="_blank" href="https://icons8.com/icon/23/calendar">Calendar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
