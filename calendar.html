@@ -32,283 +32,569 @@
           <div class="navbar-nav">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link active" aria-current="Calender Page" href="calendar.html">Calendar</a>
-            <a class="nav-link" href="profile.html">Profile</a>
+            <!-- <a class="nav-link" href="profile.html">Profile</a> -->
             <a class="nav-link" href="login.html">Log-in</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
+
   <main>
-    <h1>Calendar</h1>
-    <div id="calendar">
-      <div id="cal-tool-bar">
-        <div id="display-mode-controls">
-          <button>Compare Calendar</button>
-          <button>Week View</button>
-          <button>Month View</button>
+    <div id="calendar" class="card">
+      <div class="card-body jumbotron">
+        <div>
+          <h1 class="display-6">Calendar</h1>
         </div>
-        <div id="calendar-tools">
-          <button>+</button>
-          <button>My Cal</button>
-          <button>Google Cal</button>
-          <button>leave</button>
-        </div>
-      </div>
-      <div id="cal-display">
-        <div id="hours">
-          <p>12:00 am</p>
-          <p>1:00 am</p>
-          <p>2:00 am</p>
-          <p>3:00 am</p>
-          <p>4:00 am</p>
-          <p>5:00 am</p>
-          <p>6:00 am</p>
-          <p>7:00 am</p>
-          <p>8:00 am</p>
-          <p>9:00 am</p>
-          <p>10:00 am</p>
-          <p>11:00 am</p>
-          <p>12:00 pm</p>
-          <p>1:00 pm</p>
-          <p>2:00 pm</p>
-          <p>3:00 pm</p>
-          <p>4:00 pm</p>
-          <p>5:00 pm</p>
-          <p>6:00 pm</p>
-          <p>7:00 pm</p>
-          <p>8:00 pm</p>
-          <p>9:00 pm</p>
-          <p>10:00 pm</p>
-          <p>11:00 pm</p>
-        </div>
-        <div id="day-dates">
-          <p>Sunday <span id="sunday-date">1st</span></p>
-          <p>Monday <span id="monday-date">2nd</span></p>
-          <p>Tuesday <span id="tuesday-date">3rd</span></p>
-          <p>Wednesday <span id="wednesday-date">4th</span></p>
-          <p>Thursday <span id="thursday-date">5th</span></p>
-          <p>Friday <span id="friday-date">6th</span></p>
-          <p>Saturday <span id="saturday-date">7th</span></p>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-        <div class="day">
-          <div class="time-column">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-        </div>
-      </div>
-      <div id="calendar-buttons">
-        <button>Save</button>
-        <button>Reset</button>
-      </div>
-      <div id="add-block">
-        <form action="">
-          <label for="time-blocks">Time Block:</label>
-          <select name="time-blocks" id="time-blocks">
-            <option value="available">Available</option>
-            <option value="saab">Unavailable</option>
-          </select>
 
-          <form>
-            <label for="date">date:</label>
-            <input type="datetime-local" id="date" name="date">
-          </form>
+        <div>
+          <div id="cal-tool-bar">
+            <div id="display-mode-controls">
+              <button>Compare Calendar</button>
+              <button>Week View</button>
+              <button>Month View</button>
+            </div>
+            <div id="calendar-tools">
+              <button>+</button>
+              <button>My Cal</button>
+              <button>Google Cal</button>
+              <button>leave</button>
+            </div>
+          </div>
 
-          <button type="submit">Submit</button>
-        </form>
+          <div id="cal-display" class="table-responsive">
+            <table class="table table-hover table-bordered">
+              <tr id="cal-headings">
+                <th></th>
+                <th>Sunday <br><span id="sunday-date">1st</span></th>
+                <th>Monday <br><span id="monday-date">2nd</span></th>
+                <th>Tuesday <br><span id="tuesday-date">3rd</span></th>
+                <th>Wednesday <br><span id="wednesday-date">4th</span></th>
+                <th>Thursday <br><span id="thursday-date">5th</span></th>
+                <th>Friday <br><span id="friday-date">6th</span></th>
+                <th>Saturday <br><span id="saturday-date">7th</span></th>
+              </tr>
+              <tr>
+                <th>12:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>12:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>1:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>1:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>2:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>2:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>3:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>3:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>4:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>4:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>5:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>5:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>6:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>6:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>7:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>7:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>8:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>8:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>9:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>9:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>10:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>10:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>11:00 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>11:30 am</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+
+              
+              <tr>
+                <th>12:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>12:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>1:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>1:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>2:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>2:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>3:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>3:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>4:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>4:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>5:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>5:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>6:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>6:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>7:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>7:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>8:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>8:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>9:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>9:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+              <tr>
+                <th>10:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>10:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>11:00 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              <tr>
+                <th>11:30 pm</th>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+                <td class="clickable" onclick=""></td>
+              </tr>
+              
+            </table>
+          </div>
+
+          <div id="calendar-buttons">
+            <button>Save</button>
+            <button>Reset</button>
+          </div>
+
+          <div id="add-block">
+            <form action="">
+              <label for="time-blocks">Time Block:</label>
+              <select name="time-blocks" id="time-blocks">
+                <option value="available">Available</option>
+                <option value="saab">Unavailable</option>
+              </select>
+
+              <form>
+                <label for="date">date:</label>
+                <input type="datetime-local" id="date" name="date">
+              </form>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
+
   </main>
   
   <footer class="navbar navbar-expand-lg border-top border-body">

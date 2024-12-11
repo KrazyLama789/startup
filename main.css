@@ -15,15 +15,42 @@ main {
     justify-content: space-around;
 }
  
-#login {
+#login{
     width: 40vw;
     min-width: 400px;
     max-width: 800px;
 }
 
-#welcome{
+#welcome {
     width: 95vw;
     text-align: right;
     padding: 2rem;
 }
 
+#calendar {
+    width: 95vw;
+    margin: 2.5vw;
+    padding: 1rem;
+}
+
+#cal-tool-bar {
+    display: flex;
+    
+}
+
+#add-block {
+    display: none;
+}
+
+.clickable {
+    cursor: pointer;
+    background-color: lightblue !important;
+}
+
+table {
+    table-layout: fixed;
+}
+
+#cal-headings {
+    text-align: center;
+}
