@@ -1,0 +1,35 @@
+#calendar {
+    width: 95vw;
+    margin: 2.5vw;
+    padding: 1rem;
+    max-height: calc(100vh - 12rem);
+    overflow: auto;
+}
+
+.clickable {
+    cursor: pointer;
+    /* background-color: lightblue !important; */
+}
+
+#calendar>* {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#cal-tool-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cal-tool-bar {
+    display: flex;
+}
+
+#cal-headings {
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+}
