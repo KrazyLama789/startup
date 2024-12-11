@@ -40,22 +40,23 @@
     </nav>
   </header>
   <main>
-    <div id="login-form">
-      <h1>Log-in</h1>
-      <p>Username: <span class="username">none</span></p>
-      <form action="">
-        <label for="user">Username:</label>
-        <input type="text" id="user" name="user" placeholder="Enter your Username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your Password" required>
-
-        <button type="submit"> Submit </button>
+    <div id="login" class="card">
+      <form class="card-body">
+        <legend>Log In</legend>
+        <div id="emailHelp" class="form-text username">Username: <span class="username">none</span></div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
-
   </main>
-  
+
   <footer class="navbar navbar-expand-lg border-top border-body">
     <div class="container-fluid">
       <div>
