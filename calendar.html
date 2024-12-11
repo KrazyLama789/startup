@@ -27,7 +27,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">BlockOutCal</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,8 +35,8 @@
           <div class="navbar-nav">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link active" aria-current="Calender Page" href="calendar.html">Calendar</a>
-            <!-- <a class="nav-link" href="profile.html">Profile</a> -->
-            <a class="nav-link" href="login.html">Log-in</a>
+            <a class="nav-link username" href="profile.html">Username: <span>None</span></a>
+            <a class="nav-link login" href="login.html">Log-in</a>
           </div>
         </div>
       </div>
@@ -46,11 +46,11 @@
   <main>
     <div id="calendar" class="card">
       <div class="card-body jumbotron">
-        <h1 class="display-6">Calendar</h1>
+        <h1 id="cal-name" class="display-6">Calendar Name</h1>
 
         <div id="cal-tool-bar">
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Calendars
             </button>
             <ul class="dropdown-menu">
@@ -61,27 +61,23 @@
           </div>
 
           <div class="dropdown">
-            <a href="#" class="btn btn-secondary rounded-0">&#8249;</a>
-            <button class="btn btn-secondary dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Calendar View
+            <a href="#" class="btn">&#8249;</a>
+            <button class="btn btn-lg rounded-0" type="button">
+              <span id="month">October</span> <span id="days">1-7</span>
             </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Week View</a></li>
-              <li><a class="dropdown-item" href="#">Month View</a></li>
-            </ul>
-            <a href="#" class="btn btn-secondary rounded-0">&#8250;</a>
+            <a href="#" class="btn">&#8250;</a>
           </div>
 
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn dropdown-toggle rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Options
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Block Out Time</a></li>
               <li><a class="dropdown-item" href="#">Link Google Calendar</a></li>
               <li><a class="dropdown-item" href="#">Link Personal Calender</a></li>
               <li><a class="dropdown-item" href="#">Create New Calendar</a></li>
               <li><a class="dropdown-item" href="#">Join Calendar</a></li>
+              <li><a class="dropdown-item" href="#">Invite Others</a></li>
             </ul>
           </div>
         </div>
@@ -597,23 +593,6 @@
         <div id="calendar-buttons">
           <button class="btn btn-secondary rounded-0">Save</button>
           <button class="btn btn-secondary rounded-0">Reset</button>
-        </div>
-
-        <div id="add-block">
-          <form action="">
-            <label for="time-blocks">Time Block:</label>
-            <select name="time-blocks" id="time-blocks">
-              <option value="available">Available</option>
-              <option value="saab">Unavailable</option>
-            </select>
-
-            <form>
-              <label for="date">date:</label>
-              <input type="datetime-local" id="date" name="date">
-            </form>
-
-            <button type="submit">Submit</button>
-          </form>
         </div>
       </div>
     </div>

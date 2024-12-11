@@ -63,7 +63,7 @@ table {
     background-color: lightblue !important;
 }
 
-#add-block {
+.username {
     display: none;
 }
 
