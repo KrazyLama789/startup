@@ -2,6 +2,7 @@ import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import { Home } from './home/home';
 import { Calendar } from './calendar/calendar';
 import { Login } from './login/login';
+import { AuthState } from './login/authState';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -9,6 +10,10 @@ import './app.css';
 import React from 'react';
 
 export default function App() {
+    const [userName, setUserName] = React.useState(localStorage.getItem('userName') || '');
+    const currentAuthState = userName ? AuthState.Authenticated : AuthState.Unauthenticated;
+    const [authState, setAuthState] = React.useState(currentAuthState);
+
     return (
         <BrowserRouter>
             <div className='body'>
@@ -39,7 +44,13 @@ export default function App() {
                 <Routes>
                     <Route path='/' element={<Home />} exact />
                     <Route path='/calendar' element={<Calendar />} />
-                    <Route path='/login' element={<Login />} />
+                    <Route path='/login' element={<Login
+                        userName={userName}
+                        authState={authState}
+                        onAuthChange={(userName, authState) => {
+                            setAuthState(authState);
+                            setUserName(userName);
+                        }} />} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>
 
