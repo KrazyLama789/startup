@@ -10,9 +10,12 @@ export function Home() {
             <h1 className="display-4">BlockOut-Cal</h1>
             <p className="lead"><b>BlockOut-Cal</b> is a group calendaring app where people can join a group, block out times they aren't
               available, and highlight times that work best for them, allowing everyone in the group to visually see when
-              their schedules align.</p>
-            <a className="btn btn-primary btn-lg logged-in" href="calendar.html" role="button">Calendar</a>
-            <a className="btn btn-primary btn-lg login" href="login.html" role="button">Log In</a>
+              their schedules align.
+            </p>
+            <div className="flex">
+              <a className="btn btn-primary btn-lg logged-in" href="calendar.html" role="button">Calendar</a>
+              <a className="btn btn-primary btn-lg login" href="login.html" role="button">Log In</a>
+            </div>
           </div>
         </div>
       </div>
