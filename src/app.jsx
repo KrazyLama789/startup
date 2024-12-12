@@ -28,7 +28,7 @@ export default function App() {
                                         Calendar
                                     </NavLink>
                                     <NavLink className='nav-link' to='login'>
-                                        <span className="login">Login</span> <span className="username">Username: <span id="username">None</span></span>
+                                        <span className="unauth">Login</span> <span className="auth">Username: <span className="username">None</span></span>
                                     </NavLink>
                                 </div>
                             </div>

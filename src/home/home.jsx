@@ -13,8 +13,8 @@ export function Home() {
               their schedules align.
             </p>
             <div className="flex">
-              <a className="btn btn-primary btn-lg logged-in" href="calendar.html" role="button">Calendar</a>
-              <a className="btn btn-primary btn-lg login" href="login.html" role="button">Log In</a>
+              <a className="btn btn-secondary btn-lg auth" href="calendar.html" role="button">Calendar</a>
+              <a className="btn btn-secondary btn-lg unauth" href="login.html" role="button">Log In</a>
             </div>
           </div>
         </div>

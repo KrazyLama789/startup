@@ -7,7 +7,7 @@ export function Login() {
             <div id="login" className="card">
                 <form className="card-body">
                     <legend>Log In</legend>
-                    <div id="emailHelp" className="form-text username">Username: <span className="username">none</span></div>
+                    <div id="emailHelp" className="form-text auth">Username: <span className="username">none</span></div>
                     <div className="mb-3">
                         <label for="exampleInputEmail1" className="form-label">Email address</label>
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
