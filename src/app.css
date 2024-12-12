@@ -4,23 +4,15 @@
     min-height: 100vh;
 }
 
-header {
-    flex: 0 80px;
-}
-
 main {
-    flex: 1 calc(100vh - 110px);
+    flex: 1;
+    background-image: url(/public/startup-background.jpg);
+    background-size:cover;
+    background-attachment: fixed; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url(images/startup-background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-footer {
-    flex: 0 30px;
 }
 
 menu {
@@ -29,6 +21,7 @@ menu {
     /*  overwrite Bootstrap so the menu does not wrap */
     flex-direction: row !important;
     list-style: none;
+    margin-top: none;
 }
 
 .username {

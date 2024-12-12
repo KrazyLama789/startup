@@ -3,7 +3,7 @@ import './home.css';
 
 export function Home() {
   return (
-    <main className="container">
+    <main>
       <div id="welcome" className="card">
         <div className="card-body">
           <div className="jumbotron">
@@ -11,8 +11,7 @@ export function Home() {
             <p className="lead"><b>BlockOut-Cal</b> is a group calendaring app where people can join a group, block out times they aren't
               available, and highlight times that work best for them, allowing everyone in the group to visually see when
               their schedules align.</p>
-            <hr className="my-4"> </hr>
-            <a className="btn btn-primary btn-lg" href="calendar.html" role="button">Get Started</a>
+            <a className="btn btn-primary btn-lg logged-in" href="calendar.html" role="button">Calendar</a>
             <a className="btn btn-primary btn-lg login" href="login.html" role="button">Log In</a>
           </div>
         </div>
