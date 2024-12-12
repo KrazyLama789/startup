@@ -80,6 +80,22 @@ optional: customizable patterns for their specific time blocks. friends lists. e
     * login.html:
         * Well designed form
 
+* ### React
+    * app view:
+        * functional and designed header and footer
+        * properly implemented router to rout between views
+        * data imported correctly
+        * app style sheet working
+    * home view:
+        * functioning nib
+        * jsx and css working
+    * calendar view:
+        * functioning nib
+        * jsx and css working
+    * login view:
+        * functioning nib
+        * jsx and css working
+
 ## Key Features
 * Personal calendar
     * A personal calendar that can be overlaid onto any group calendar
