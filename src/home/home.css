@@ -7,8 +7,3 @@
 p.lead {
     max-width: 800px;
 }
-
-.flex {
-    display: flex;
-    gap: 10px;
-}

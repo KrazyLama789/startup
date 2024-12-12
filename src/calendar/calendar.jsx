@@ -550,7 +550,7 @@ export function Calendar() {
 
                         </table>
                     </div>
-                    <div id="calendar-buttons">
+                    <div id="calendar-buttons" className='flex'>
                         <button className="btn btn-secondary rounded-0">Save</button>
                         <button className="btn btn-secondary rounded-0">Reset</button>
                     </div>

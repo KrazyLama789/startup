@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './home.css';
 
 export function Home() {
@@ -12,9 +13,13 @@ export function Home() {
               available, and highlight times that work best for them, allowing everyone in the group to visually see when
               their schedules align.
             </p>
-            <div className="flex">
-              <a className="btn btn-secondary btn-lg auth rounded-0" href="calendar.html" role="button">Calendar</a>
-              <a className="btn btn-secondary btn-lg unauth rounded-0" href="login.html" role="button">Log In</a>
+            <div>
+              <NavLink className='nav-link' to='calendar'>
+                <a className="btn btn-secondary btn-lg auth rounded-0" href="calendar.html" role="button">Calendar</a>
+              </NavLink>
+              <NavLink className='nav-link' to='login'>
+                <a className="btn btn-secondary btn-lg unauth rounded-0" href="login.html" role="button">Log In</a>
+              </NavLink>
             </div>
           </div>
         </div>
