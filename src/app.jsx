@@ -49,7 +49,7 @@ export default function App() {
                             Author: Mary G.
                         </div>
                         <div className="nav-link">
-                            <a href="https://github.com/KrazyLama789/startup.git">Source</a> <a href="">Attribution</a>
+                            <a href="https://github.com/KrazyLama789/startup.git">Source</a>
                         </div>
                     </div>
                 </footer>
